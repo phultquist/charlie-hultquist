@@ -55,7 +55,7 @@ export default function Page(props: { pageData: any }) {
         )}
       </div>
       {props.pageData.embed && (
-        <div className="my-6 w-full h-[80vh] rounded-md overflow-hidden shadow-sm">
+        <div className="my-6 w-full h-[80vh] rounded-md overflow-hidden shadow-sm bg-gray-100">
           <iframe
             className="w-full h-full"
             src={props.pageData.embed}
