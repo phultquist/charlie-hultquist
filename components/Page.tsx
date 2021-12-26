@@ -81,7 +81,6 @@ export default function Page(props: { pageData: any }) {
           })}
         </div>
       )}
-      <pre>{JSON.stringify(props.pageData, null, 2)}</pre>;
     </div>
   );
 }
